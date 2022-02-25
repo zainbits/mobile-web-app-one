@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,22 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.chakra-ui-dark {
+  --app-background: #000000;
+  --bottom-bar-background: #1d1d1d;
+  --bottom-bar-border: #1d1d1d;
+  --bottom-bar-active: #008000;
+  --font-primary: #fff;
+  --font-secondary: #fff;
+}
+
+.chakra-ui-light {
+  --app-background: #ffffff;
+  --bottom-bar-background: #ffffff; 
+  --bottom-bar-border: #000000;
+  --bottom-bar-active: #c0c0c0;
+  --font-primary: #000000;
+  --font-secondary: #fff;
 }

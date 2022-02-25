@@ -1,0 +1,39 @@
+.navlink {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4em;
+
+  &_item {
+    flex-direction: column;
+    width: 100%;
+    padding: 18px;
+
+    > p {
+      font-size: 15px;
+    }
+
+    &_icon {
+      justify-content: center;
+      padding: 5px;
+      border-radius: 25px;
+      margin-top: -6px;
+    }
+
+    &_name {
+        margin-top: 3px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+.navlink-active {
+  @extend .navlink;
+//   background-color: var(--bottom-bar-active);
+
+  .navlink_item_icon {
+    background-color: var(--bottom-bar-active);
+  }
+}

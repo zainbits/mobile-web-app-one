@@ -1,0 +1,6 @@
+.app {
+    flex-direction: column;
+    height: calc(100vh - 80px);
+    background-color: var(--app-background);
+    color: var(--font-primary);
+}
