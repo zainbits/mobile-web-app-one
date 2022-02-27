@@ -13,7 +13,7 @@ export const BottomBar = () => {
   const [currentPage, setCurrentPage] = useState('');
 
   return (
-    <Flex w={"100%"} className="bottom_bar">
+    <Flex className="bottom_bar">
       <MenuItem
         icon={AiOutlineHome}
         to="/"

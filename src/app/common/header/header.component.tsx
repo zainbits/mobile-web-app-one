@@ -8,7 +8,7 @@ interface props {
 
 export const Header = ({ title }: props) => {
   return (
-    <Flex className="header">
+    <Flex w={"100%"} className="header">
       <Text>{title}</Text>
     </Flex>
   );

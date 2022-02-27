@@ -12,9 +12,9 @@ import './App.scss';
 function App() {
   const [headerTitle, setHeaderTitle] = useState('');
   return (
-    <>
+    <Flex className="app">
       <Header title={headerTitle} />
-      <Flex className="app">
+      <Flex className="app-container">
         <Routes>
           <Route path="/" element={<Home setHeaderTitle={setHeaderTitle}/>} />
           <Route path="/settings" element={<Settings setHeaderTitle={setHeaderTitle} />} />
@@ -23,7 +23,7 @@ function App() {
         </Routes>
       </Flex>
       <BottomBar />
-    </>
+    </Flex>
   );
 }
 
