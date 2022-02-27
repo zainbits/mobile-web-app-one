@@ -17,12 +17,11 @@
     &_icon {
       justify-content: center;
       padding: 5px;
-      border-radius: 25px;
       margin-top: -6px;
     }
 
     &_name {
-        margin-top: 3px;
+      margin-top: 3px;
       display: flex;
       justify-content: center;
     }
@@ -31,9 +30,27 @@
 
 .navlink-active {
   @extend .navlink;
-//   background-color: var(--bottom-bar-active);
+  //   background-color: var(--bottom-bar-active);
 
-  .navlink_item_icon {
+  .navlink_item_icon::before {
+    content: '';
+    margin-top: -2px;
+    position: absolute;
+    z-index: -1;
+    animation: activestate 0.3s forwards;
+  }
+}
+
+@keyframes activestate {
+  from {
+    border-radius: 100%;
+    height: 27px;
+    width: 27px;
+  }
+  to {
+    border-radius: 25px;
+    height: 27px;
+    width: 50px;
     background-color: var(--bottom-bar-active);
   }
 }
