@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "ZnMobileApp",
+  "name": "Web app for mobile",
   "icons": [
     {
       "src": "favicon.ico",
