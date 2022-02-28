@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/mobile-web-app-one/static/css/main.70d5ea7a.css",
+    "main.css": "/mobile-web-app-one/static/css/main.143d66ef.css",
     "main.js": "/mobile-web-app-one/static/js/main.3e0a38dd.js",
     "index.html": "/mobile-web-app-one/index.html",
-    "main.70d5ea7a.css.map": "/mobile-web-app-one/static/css/main.70d5ea7a.css.map",
+    "main.143d66ef.css.map": "/mobile-web-app-one/static/css/main.143d66ef.css.map",
     "main.3e0a38dd.js.map": "/mobile-web-app-one/static/js/main.3e0a38dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.70d5ea7a.css",
+    "static/css/main.143d66ef.css",
     "static/js/main.3e0a38dd.js"
   ]
 }
