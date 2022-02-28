@@ -23,13 +23,15 @@ code {
   --bottom-bar-active: #008000;
   --font-primary: #fff;
   --font-secondary: #fff;
+  --font-color-active: #fff;
 }
 
 .chakra-ui-light {
   --app-background: #ffffff;
   --bottom-bar-background: #ffffff; 
   --bottom-bar-border: #000000;
-  --bottom-bar-active: #c0c0c0;
+  --bottom-bar-active: #000000;
   --font-primary: #000000;
   --font-secondary: #fff;
+  --font-color-active: #fff;
 }

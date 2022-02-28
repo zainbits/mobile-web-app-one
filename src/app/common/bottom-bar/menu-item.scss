@@ -32,6 +32,10 @@
   @extend .navlink;
   //   background-color: var(--bottom-bar-active);
 
+  .navlink_item_icon {
+    color: var(--font-color-active);
+  }
+
   .navlink_item_icon::before {
     content: '';
     margin-top: -2px;
